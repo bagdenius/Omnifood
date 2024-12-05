@@ -401,7 +401,6 @@
 
 .pricing-plan {
   border-radius: 12px;
-  width: 100%;
 }
 
 .pricing-plan--starter {
@@ -411,6 +410,7 @@
 }
 
 .pricing-plan--complete {
+  justify-self: start;
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
